@@ -20,4 +20,5 @@ int main()
     int n;
     cin>>n;
     print_until_1(n);
+    return 0;
 }
