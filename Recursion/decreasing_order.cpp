@@ -1,12 +1,16 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void printuntil1(int n)
+void print_until_1(int n)
 {
+    //Base Case
     if(n==0) return;
-
+    
+    //Operation
     cout<<n<<" ";
-    printuntil1(n-1);
+    
+    //Recursive Call
+    print_until_1(n-1);
 }
 
 int main()
@@ -15,5 +19,5 @@ int main()
     cout<<"Enter the value of n: ";
     int n;
     cin>>n;
-    printuntil1(n);
+    print_until_1(n);
 }
