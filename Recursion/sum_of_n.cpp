@@ -1,6 +1,8 @@
 #include<bits/stdtr1c++.h>
 using namespace std;
-//int sum = 0;
+
+//Parameterised Way of Finding the sum of First N Natural Numbers
+
 void sum_of_n(int n, int i, int sum)
 {
     //Base Case:
